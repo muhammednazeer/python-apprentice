@@ -20,6 +20,10 @@ def print_words(story_words):
         print(word)
 
 
-if __name__ == '__main__':
+def main():
     words = fetch_words()
     print_words(words)
+
+
+if __name__ == '__main__':
+    main()
